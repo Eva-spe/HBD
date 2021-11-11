@@ -1,0 +1,18 @@
+{
+  "homepage":"https://Eva-spe.github.io/HBD/",
+  "name": "hbd",
+  "version": "1.0.0",
+  "description": "HappyBirthDay",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "deploy": "gh-pages -d build",
+    "predeploy": "yarn run build"
+  },
+  "author": "Mona",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
